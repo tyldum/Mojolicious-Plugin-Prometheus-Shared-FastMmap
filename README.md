@@ -1,4 +1,4 @@
-
+[![MetaCPAN Release](https://badge.fury.io/pl/Mojolicious-Plugin-Prometheus-Shared-FastMmap.svg)](https://metacpan.org/release/Mojolicious-Plugin-Prometheus-Shared-FastMmap)
 # NAME
 
 Mojolicious::Plugin::Prometheus::Shared::FastMmap - Mojolicious Plugin
