@@ -1,8 +1,9 @@
-package Mojolicious::Plugin::Prometheus::Role::SharedFastMMap;
+package Mojolicious::Plugin::Prometheus::Role::SharedFastMmap;
 use Role::Tiny;
 
 after register => sub {
   my ($self, $app, $config) = @_;
+
   $app->plugin(
     'CHI' => {
       Prometheus_plugin => {
@@ -13,6 +14,7 @@ after register => sub {
       }
     }
   );
+
   $app->hook(
     after_render => sub {
       my ($c) = @_;
@@ -20,7 +22,6 @@ after register => sub {
     }
   );
 
-  $self->route($app->routes->get($config->{path} // '/metrics'));
   $self->route->to(
     cb => sub {
       my ($c) = @_;

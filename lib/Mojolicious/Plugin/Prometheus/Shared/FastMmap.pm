@@ -4,7 +4,7 @@ use Role::Tiny::With;
 
 our $VERSION = '1.0.0';
 
-with 'Mojolicious::Plugin::Prometheus::Role::SharedFastMMap';
+with 'Mojolicious::Plugin::Prometheus::Role::SharedFastMmap';
 1;
 __END__
 
