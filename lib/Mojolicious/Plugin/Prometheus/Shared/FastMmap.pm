@@ -1,4 +1,4 @@
-package Mojolicious::Plugin::Prometheus::Shared::FastMMap;
+package Mojolicious::Plugin::Prometheus::Shared::FastMmap;
 use Mojo::Base 'Mojolicious::Plugin::Prometheus';
 use Role::Tiny::With;
 
