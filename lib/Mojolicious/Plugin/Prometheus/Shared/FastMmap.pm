@@ -2,7 +2,7 @@ package Mojolicious::Plugin::Prometheus::Shared::FastMmap;
 use Mojo::Base 'Mojolicious::Plugin::Prometheus';
 use Role::Tiny::With;
 
-our $VERSION = '0.1_01';
+our $VERSION = '1.0.0';
 
 with 'Mojolicious::Plugin::Prometheus::Role::SharedFastMmap';
 1;
