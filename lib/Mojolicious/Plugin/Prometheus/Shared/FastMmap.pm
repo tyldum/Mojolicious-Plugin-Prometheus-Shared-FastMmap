@@ -8,6 +8,8 @@ with 'Mojolicious::Plugin::Prometheus::Role::SharedFastMmap';
 1;
 __END__
 
+=for stopwords mmapped
+
 =encoding utf8
 
 =head1 NAME

@@ -4,7 +4,7 @@ use Test::More;
 use Mojolicious::Lite;
 use Test::Mojo;
 
-plugin 'Prometheus::Shared::FastMMap';
+plugin 'Prometheus::Shared::FastMmap';
 
 
 ## TODO Tests beyond the basics, like actually using hypnotoad.
