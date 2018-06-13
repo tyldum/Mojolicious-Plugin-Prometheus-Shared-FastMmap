@@ -1,4 +1,4 @@
-requires 'Mojolicious::Plugin::Prometheus';
+requires 'Mojolicious::Plugin::Prometheus', '1.1.0';
 requires 'Mojolicious::Plugin::CHI';
 requires 'CHI::Driver::FastMmap';
 requires 'Cache::FastMmap';
