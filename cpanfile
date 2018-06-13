@@ -2,6 +2,8 @@ requires 'Mojolicious::Plugin::Prometheus';
 requires 'Mojolicious::Plugin::CHI';
 requires 'CHI::Driver::FastMmap';
 requires 'Cache::FastMmap';
+requires 'Role::Tiny';
+requires 'Class::Method::Modifiers';
 
 on 'test' => sub {
     requires 'Test::More', '0.98';
